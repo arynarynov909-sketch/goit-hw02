@@ -1,3 +1,4 @@
+/* Базові скидання та глобальні налаштування */
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
@@ -8,22 +9,24 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+.contacts {
+  font-style: normal;
+}
+
+/* Глобальні стилі логотипа */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-
-.logo-accent {
-  color: #4d5ae5;
 }
